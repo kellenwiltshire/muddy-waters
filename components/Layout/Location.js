@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from 'react-bootstrap/Button';
 
 function Location() {
 	return (
@@ -32,19 +33,19 @@ function Location() {
 							<div className='md-form'>
 								<i className='fas fa-user prefix grey-text'></i>
 								<input type='text' id='form-name' className='form-control' />
-								<label for='form-name'>Your name</label>
+								<label htmlFor='form-name'>Your name</label>
 							</div>
 
 							<div className='md-form'>
 								<i className='fas fa-envelope prefix grey-text'></i>
 								<input type='text' id='form-email' className='form-control' />
-								<label for='form-email'>Your email</label>
+								<label htmlFor='form-email'>Your email</label>
 							</div>
 
 							<div className='md-form'>
 								<i className='fas fa-tag prefix grey-text'></i>
 								<input type='text' id='form-Subject' className='form-control' />
-								<label for='form-Subject'>Subject</label>
+								<label htmlFor='form-Subject'>Subject</label>
 							</div>
 
 							<div className='md-form'>
@@ -54,11 +55,11 @@ function Location() {
 									className='form-control md-textarea'
 									rows='3'
 								></textarea>
-								<label for='form-text'>Icon Prefix</label>
+								<label htmlFor='form-text'>Icon Prefix</label>
 							</div>
 
 							<div className='text-center mt-4'>
-								<button className='btn btn-light-blue'>Submit</button>
+								<Button className='btn btn-light-blue'>Submit</Button>
 							</div>
 						</div>
 					</div>
@@ -84,16 +85,15 @@ function Location() {
 							<a className='btn-floating blue accent-1'>
 								<i className='fas fa-phone'></i>
 							</a>
-							<p>+ 01 234 567 89</p>
-							<p>Mon - Fri, 8:00-22:00</p>
+							<p>(613) 374-5444</p>
+							<p>Mon - Sun, 11AM - 7PM</p>
 						</div>
 
 						<div className='col-md-4'>
 							<a className='btn-floating blue accent-1'>
 								<i className='fas fa-envelope'></i>
 							</a>
-							<p>info@gmail.com</p>
-							<p>sale@gmail.com</p>
+							<p>muddywatersverona@gmail.com</p>
 						</div>
 					</div>
 				</div>
