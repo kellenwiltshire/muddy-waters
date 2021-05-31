@@ -2,19 +2,16 @@ import React from 'react';
 
 function Starters() {
 	return (
-		<table class='table'>
+		<table className='table'>
 			<thead>
-				<tr>
-					<th scope='col'>Item</th>
-					<th scope='col'>Price</th>
+				<tr className='table-primary'>
+					<th scope='col'>
+						<h3>Starters</h3>
+					</th>
+					<th scope='col'></th>
 				</tr>
 			</thead>
 			<tbody>
-				<tr className='table-primary'>
-					<th scope='row' colSpan='2'>
-						<h3>Starters</h3>
-					</th>
-				</tr>
 				<tr>
 					<td>
 						<h4 className='fs-2'>Garlic Bread</h4>

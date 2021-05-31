@@ -4,21 +4,18 @@ function Burgers() {
 	return (
 		<table class='table'>
 			<thead>
-				<tr>
-					<th scope='col'>Item</th>
-					<th scope='col'>Price</th>
-				</tr>
-			</thead>
-			<tbody>
 				<tr className='table-primary'>
-					<th scope='row' colSpan='2'>
+					<th scope='col'>
 						<h3>Burgers</h3>
 						<h6>
 							Our 6oz burders are made from fresh 100% local beef. Served with
 							fresh cut fries.
 						</h6>
 					</th>
+					<th scope='col'></th>
 				</tr>
+			</thead>
+			<tbody>
 				<tr>
 					<td>
 						<h4 className='fs-2'>Homeburger</h4>
