@@ -11,7 +11,7 @@ import Sandwiches from '../Menu/Sandwiches';
 import HotSandwiches from '../Menu/HotSandwiches';
 
 function Menu() {
-	const [isStartersOpen, setIsStartersOpen] = useState(false);
+	const [isStartersOpen, setIsStartersOpen] = useState(true);
 	const [isEntreesOpen, setIsEntreesOpen] = useState(false);
 	const [isSandwichesOpen, setIsSandwichesOpen] = useState(false);
 	const [isSidesOpen, setIsSidesOpen] = useState(false);
@@ -39,7 +39,7 @@ function Menu() {
 
 	return (
 		<div className='container'>
-			<div className='row'>
+			<div className='row btn-group m-1'>
 				<button onClick={openMenuItem} className='btn btn-primary m-1'>
 					Starters, Soup, Salads, and Wraps
 				</button>

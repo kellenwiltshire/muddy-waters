@@ -2,17 +2,37 @@ import React from 'react';
 
 function Hero() {
 	return (
-		<div className='container col-xxl-8 px-4 py-5'>
+		<div className='container col-xxl-8 px-4 py-5 h-25'>
 			<div className='row flex-lg-row-reverse align-items-center g-5 py-5'>
 				<div className='col-10 col-sm-8 col-lg-6'>
-					<img
-						src='/main-picture.jpg'
-						className='d-block mx-lg-auto img-fluid rounded'
-						alt='Bootstrap Themes'
-						width='700'
-						height='500'
-						loading='lazy'
-					/>
+					<div
+						id='carouselExampleSlidesOnly'
+						className='carousel slide'
+						data-ride='carousel'
+					>
+						<div className='carousel-inner'>
+							<div className='carousel-item active'>
+								<img
+									src='/main-picture.jpg'
+									class='d-block w-100'
+									alt='Outside Restaurant'
+								/>
+							</div>
+							<div className='carousel-item'>
+								<img
+									src='/outdoor.jpg'
+									class='d-block w-100'
+									alt='Outdoor Dining'
+								/>
+							</div>
+							<div className='carousel-item'>
+								<img src='/wraps.jpg' class='d-block w-100' alt='Wraps' />
+							</div>
+							<div className='carousel-item'>
+								<img src='/salad.jpg' class='d-block w-100' alt='Salad' />
+							</div>
+						</div>
+					</div>
 				</div>
 				<div className='col-lg-6'>
 					<h1 className='display-5 fw-bold lh-1 mb-3'>
