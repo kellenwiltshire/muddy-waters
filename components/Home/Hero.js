@@ -2,8 +2,8 @@ import React from 'react';
 
 function Hero() {
 	return (
-		<div className='container col-xxl-8 px-4 py-5 h-25'>
-			<div className='row flex-lg-row-reverse align-items-center g-5 py-5'>
+		<div className='container col-xxl-8'>
+			<div className='row flex-lg-row-reverse align-items-start g-5 py-5'>
 				<div className='col-10 col-sm-8 col-lg-6'>
 					<div
 						id='carouselExampleSlidesOnly'
@@ -14,27 +14,34 @@ function Hero() {
 							<div className='carousel-item active'>
 								<img
 									src='/main-picture.jpg'
-									class='d-block w-100'
+									className='d-block'
+									width='auto'
+									height='500px'
 									alt='Outside Restaurant'
 								/>
 							</div>
 							<div className='carousel-item'>
 								<img
 									src='/outdoor.jpg'
-									class='d-block w-100'
+									width='auto'
+									height='500px'
+									className='d-block'
 									alt='Outdoor Dining'
 								/>
 							</div>
 							<div className='carousel-item'>
-								<img src='/wraps.jpg' class='d-block w-100' alt='Wraps' />
-							</div>
-							<div className='carousel-item'>
-								<img src='/salad.jpg' class='d-block w-100' alt='Salad' />
+								<img
+									src='/wraps.jpg'
+									width='auto'
+									height='500px'
+									className='d-block'
+									alt='Wraps'
+								/>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div className='col-lg-6'>
+				<div className='col-lg-6 d-flex flex-column justify-content-start align-items-center pt-5 mt-5'>
 					<h1 className='display-5 fw-bold lh-1 mb-3'>
 						Muddy Waters Restaurant
 					</h1>
