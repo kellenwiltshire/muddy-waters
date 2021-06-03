@@ -1,4 +1,5 @@
 import React from 'react';
+import Facebook from '../Icons/Facebook';
 
 function Hero() {
 	return (
@@ -56,6 +57,25 @@ function Hero() {
 							className='btn btn-primary btn-lg px-4 m-2'
 						>
 							Menu
+						</a>
+						<a
+							href='#location'
+							type='button'
+							className='btn btn-outline-secondary btn-lg px-4 m-2'
+						>
+							Contact
+						</a>
+					</div>
+					<p className='lead'>
+						Check us out on Social Media for our Daily Specials!
+					</p>
+					<div className='d-grid gap-2 d-md-flex justify-content-md-start'>
+						<a
+							href='#menu'
+							type='button'
+							className='btn btn-primary btn-lg px-4 m-2'
+						>
+							<Facebook />
 						</a>
 						<a
 							href='#location'
