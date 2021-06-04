@@ -5,7 +5,7 @@ function Nav() {
 		<nav className='navbar navbar-expand-lg navbar-dark bg-secondary'>
 			<div className='container-fluid'>
 				<a className='navbar-brand' href='/'>
-					Muddy Waters
+					Muddy Waters Restaurant
 				</a>
 			</div>
 		</nav>
