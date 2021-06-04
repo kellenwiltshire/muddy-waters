@@ -43,7 +43,7 @@ function Hero() {
 						</div>
 					</div>
 				</div>
-				<div className='col-lg-6 d-flex flex-column justify-content-start align-items-center pt-2 sm-pt-5 sm-mt-5'>
+				<div className='col-lg-6 d-flex flex-column justify-content-start align-items-center pt-2 sm-pt-5 sm-mt-2'>
 					<h1 className='display-5 fw-bold lh-1 mb-3'>
 						Muddy Waters Restaurant
 					</h1>
