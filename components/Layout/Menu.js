@@ -9,6 +9,7 @@ import SoupsSalads from '../Menu/SoupsSalads';
 import Wraps from '../Menu/Wraps';
 import Sandwiches from '../Menu/Sandwiches';
 import HotSandwiches from '../Menu/HotSandwiches';
+import { motion } from 'framer-motion';
 
 function Menu() {
 	const [isStartersOpen, setIsStartersOpen] = useState(true);
@@ -57,7 +58,12 @@ function Menu() {
 				</a>
 			</div>
 			{isStartersOpen ? (
-				<div className='row'>
+				<motion.div
+					initial={{ opacity: 0 }}
+					animate={{ opacity: 1 }}
+					transition={{ duration: 1 }}
+					className='row'
+				>
 					<div className='col-md-6'>
 						<Starters />
 					</div>
@@ -65,11 +71,16 @@ function Menu() {
 						<SoupsSalads />
 						<Wraps />
 					</div>
-				</div>
+				</motion.div>
 			) : null}
 
 			{isEntreesOpen ? (
-				<div className='row'>
+				<motion.div
+					initial={{ opacity: 0 }}
+					animate={{ opacity: 1 }}
+					transition={{ duration: 1 }}
+					className='row'
+				>
 					<div className='col-md-6'>
 						<Entrees />
 					</div>
@@ -77,27 +88,37 @@ function Menu() {
 						<Burgers />
 						<FishChips />
 					</div>
-				</div>
+				</motion.div>
 			) : null}
 			{isSandwichesOpen ? (
-				<div className='row'>
+				<motion.div
+					initial={{ opacity: 0 }}
+					animate={{ opacity: 1 }}
+					transition={{ duration: 1 }}
+					className='row'
+				>
 					<div className='col-md-6'>
 						<Sandwiches />
 					</div>
 					<div className='col-md-6'>
 						<HotSandwiches />
 					</div>
-				</div>
+				</motion.div>
 			) : null}
 			{isSidesOpen ? (
-				<div className='row'>
+				<motion.div
+					initial={{ opacity: 0 }}
+					animate={{ opacity: 1 }}
+					transition={{ duration: 1 }}
+					className='row'
+				>
 					<div className='col-md-6'>
 						<SideOrders />
 					</div>
 					<div className='col-md-6'>
 						<Beverages />
 					</div>
-				</div>
+				</motion.div>
 			) : null}
 		</div>
 	);

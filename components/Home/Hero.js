@@ -71,10 +71,18 @@ function Hero() {
 						Check us out on Social Media for our Daily Specials!
 					</p>
 					<div className='d-grid gap-2 d-md-flex justify-content-md-start'>
-						<a href='#menu' type='button' className='btn px-4 m-2'>
+						<a
+							href='https://www.facebook.com/muddywatersverona/'
+							type='button'
+							className='btn px-4 m-2'
+						>
 							<Facebook />
 						</a>
-						<a href='#menu' type='button' className='btn px-4 m-2'>
+						<a
+							href='https://www.instagram.com/muddywaters_verona/'
+							type='button'
+							className='btn px-4 m-2'
+						>
 							<Instagram />
 						</a>
 					</div>
