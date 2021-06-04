@@ -4,7 +4,7 @@ function Beverages() {
 	return (
 		<table class='table'>
 			<tbody>
-				<tr className='table-primary'>
+				<tr className='table-info'>
 					<th scope='row' colSpan='2'>
 						<h3>Beverages</h3>
 					</th>

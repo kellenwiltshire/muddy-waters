@@ -21,10 +21,13 @@ function Location() {
 				<h1 className='card-title'>Contact Us</h1>
 				<div className='col'>
 					<p className='card-text'>
-						<Phone /> (613) 374-5444
+						<Phone /> <a href='tel: 1 613 374 5444'>(613) 374-5444</a>
 					</p>
 					<p className='card-text'>
-						<Email /> muddywatersverona@gmail.com
+						<Email />{' '}
+						<a href='mailto: muddywatersverona@gmail.com'>
+							muddywatersverona@gmail.com
+						</a>
 					</p>
 					<p className='card-text'>
 						<Address /> 6557 38 Hwy, Verona ON K0H 2W0

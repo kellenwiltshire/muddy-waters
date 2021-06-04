@@ -1,15 +1,15 @@
 import React from 'react';
 import Head from 'next/head';
 import Nav from './Nav';
+import Footer from './Footer';
 
-function Layout({ title, children }) {
+function Layout({ children }) {
 	return (
 		<div>
 			<Head>
-				<title>{title}</title>
 				<link rel='icon' href='/favicon.ico' />
-				<meta description='We-Made-It We Made It Newcastle Ontario Homemade Handmade Decor Boutique Local Clarington Canada Bowmanville Durham Oshawa' />
-				<meta name='We Made It Local Handmade Boutique' />
+				<meta description='Muddy Waters Verona Restaurant Harrowsmith South Frontenac Highway 38 Kingston Ontario Home-cooked food' />
+				<meta name='Muddy Waters Restaurant' />
 				<meta lang='en' />
 
 				<link rel='preconnect' href='https://fonts.gstatic.com' />
@@ -20,6 +20,7 @@ function Layout({ title, children }) {
 			</Head>
 			<Nav />
 			<main className='container'>{children}</main>
+			<Footer />
 		</div>
 	);
 }

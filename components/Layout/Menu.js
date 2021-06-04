@@ -41,19 +41,19 @@ function Menu() {
 	return (
 		<div className='container'>
 			<div className='row btn-group m-1'>
-				<button onClick={openMenuItem} className='btn btn-primary m-1'>
+				<button onClick={openMenuItem} className='btn btn-secondary m-1'>
 					Starters, Soup, Salads, and Wraps
 				</button>
-				<button onClick={openMenuItem} className='btn btn-primary m-1'>
+				<button onClick={openMenuItem} className='btn btn-secondary m-1'>
 					Entrees, Burgers, and Fish and Chips
 				</button>
-				<button onClick={openMenuItem} className='btn btn-primary m-1'>
+				<button onClick={openMenuItem} className='btn btn-secondary m-1'>
 					Sandwiches
 				</button>
-				<button onClick={openMenuItem} className='btn btn-primary m-1'>
+				<button onClick={openMenuItem} className='btn btn-secondary m-1'>
 					Sides and Beverages
 				</button>
-				<a href='/menu' className='btn btn-primary m-1'>
+				<a href='/menu' className='btn btn-secondary m-1'>
 					Full Menu
 				</a>
 			</div>

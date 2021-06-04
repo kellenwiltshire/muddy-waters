@@ -4,7 +4,7 @@ function Wraps() {
 	return (
 		<table class='table'>
 			<thead>
-				<tr className='table-primary'>
+				<tr className='table-info'>
 					<th scope='col'>
 						<h3>Wraps</h3>
 						<h6>Served with fresh cut fries</h6>

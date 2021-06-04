@@ -4,7 +4,7 @@ function Burgers() {
 	return (
 		<table class='table'>
 			<thead>
-				<tr className='table-primary'>
+				<tr className='table-info'>
 					<th scope='col'>
 						<h3>Burgers</h3>
 						<h6>

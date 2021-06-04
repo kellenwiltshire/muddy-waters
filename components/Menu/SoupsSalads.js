@@ -4,7 +4,7 @@ function SoupsSalads() {
 	return (
 		<table class='table'>
 			<thead>
-				<tr className='table-primary'>
+				<tr className='table-info'>
 					<th scope='col'>
 						<h3>Soups and Salads</h3>
 					</th>

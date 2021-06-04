@@ -10,10 +10,14 @@ import SoupsSalads from '../components/Menu/SoupsSalads';
 import Wraps from '../components/Menu/Wraps';
 import Sandwiches from '../components/Menu/Sandwiches';
 import HotSandwiches from '../components/Menu/HotSandwiches';
+import Head from 'next/head';
 
 export default function menu() {
 	return (
 		<div>
+			<Head>
+				<title>Menu | Muddy Waters Verona</title>
+			</Head>
 			<Titles title='Menu' />
 			<div className='container'>
 				<div className='row'>

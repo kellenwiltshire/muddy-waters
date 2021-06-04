@@ -4,7 +4,7 @@ function Starters() {
 	return (
 		<table className='table'>
 			<thead>
-				<tr className='table-primary'>
+				<tr className='table-info'>
 					<th scope='col'>
 						<h3>Starters</h3>
 					</th>
@@ -104,7 +104,7 @@ function Starters() {
 						<p>$12.50</p>
 					</td>
 				</tr>
-				<tr className='table-primary'>
+				<tr className='table-info'>
 					<th scope='row' colSpan='2'>
 						<h3>Chicken Wings</h3>
 						<h6>

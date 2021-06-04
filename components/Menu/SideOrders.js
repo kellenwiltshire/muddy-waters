@@ -4,7 +4,7 @@ function SideOrders() {
 	return (
 		<table class='table'>
 			<thead>
-				<tr className='table-primary'>
+				<tr className='table-info'>
 					<th scope='col'>
 						<h3>Side Orders</h3>
 					</th>

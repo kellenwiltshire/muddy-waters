@@ -5,8 +5,8 @@ function Facebook() {
 		<svg
 			xmlns='http://www.w3.org/2000/svg'
 			className='icon icon-tabler icon-tabler-brand-facebook'
-			width='32'
-			height='32'
+			width='50'
+			height='50'
 			viewBox='0 0 24 24'
 			strokeWidth='1.5'
 			stroke='#007bff'

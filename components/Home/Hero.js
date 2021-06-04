@@ -55,7 +55,7 @@ function Hero() {
 						<a
 							href='#menu'
 							type='button'
-							className='btn btn-primary btn-lg px-4 m-2'
+							className='btn btn-secondary btn-lg px-4 m-2'
 						>
 							Menu
 						</a>

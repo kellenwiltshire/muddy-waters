@@ -4,7 +4,7 @@ function Sandwiches() {
 	return (
 		<table class='table'>
 			<thead>
-				<tr className='table-primary'>
+				<tr className='table-info'>
 					<th scope='col'>
 						<h3>Sandwiches</h3>
 						<h6>
