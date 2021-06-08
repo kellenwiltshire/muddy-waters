@@ -96,9 +96,9 @@ function Hero() {
 					</div>
 				</div>
 			</div>
-			<div className='row flex-lg-row-reverse align-items-center d-flex justify-content-center g-5 py-2 sm-py-5'>
+			<div className='row align-items-center d-flex justify-content-center py-2 sm-py-5'>
 				<div
-					className='fb-page'
+					className='fb-page col-12 d-flex justify-content-center'
 					data-href='https://www.facebook.com/muddywatersverona'
 					data-tabs='timeline'
 					data-width=''
@@ -110,7 +110,7 @@ function Hero() {
 				>
 					<blockquote
 						cite='https://www.facebook.com/muddywatersverona'
-						class='fb-xfbml-parse-ignore'
+						className='fb-xfbml-parse-ignore'
 					>
 						<a href='https://www.facebook.com/muddywatersverona'>
 							Muddy Waters Restaurant
