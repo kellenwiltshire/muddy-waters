@@ -5,16 +5,8 @@ import Titles from '../Layout/Titles';
 
 function Hero() {
 	return (
-		<div className='container col-xxl-8'>
-			<div className='row flex-lg-row-reverse align-items-start g-5 py-2 sm-py-5'>
-				<div className='d-lg-none d-flex col-12 justify-content-center'>
-					<img
-						src='/main-picture.jpg'
-						width='300px'
-						height='auto'
-						alt='Outside Restaurant'
-					/>
-				</div>
+		<div className='container-fluid'>
+			<div className='row flex-lg-row-reverse align-items-center d-flex justify-content-center g-5 py-2 sm-py-5'>
 				<div className='col-12 col-sm-12 col-lg-6 d-none d-lg-flex'>
 					<div
 						id='carouselExampleSlidesOnly'
@@ -51,6 +43,15 @@ function Hero() {
 							</div>
 						</div>
 					</div>
+				</div>
+
+				<div className='d-lg-none d-flex col-12 justify-content-center'>
+					<img
+						src='/main-picture.jpg'
+						width='300px'
+						height='auto'
+						alt='Outside Restaurant'
+					/>
 				</div>
 				<div className='col-lg-6 d-flex flex-column justify-content-start align-items-center pt-2 sm-pt-5 sm-mt-2'>
 					<Titles title='Muddy Waters Restaurant' />
@@ -93,6 +94,28 @@ function Hero() {
 							<Instagram />
 						</a>
 					</div>
+				</div>
+			</div>
+			<div className='row flex-lg-row-reverse align-items-center d-flex justify-content-center g-5 py-2 sm-py-5'>
+				<div
+					className='fb-page'
+					data-href='https://www.facebook.com/muddywatersverona'
+					data-tabs='timeline'
+					data-width=''
+					data-height=''
+					data-small-header='true'
+					data-adapt-container-width='true'
+					data-hide-cover='true'
+					data-show-facepile='true'
+				>
+					<blockquote
+						cite='https://www.facebook.com/muddywatersverona'
+						class='fb-xfbml-parse-ignore'
+					>
+						<a href='https://www.facebook.com/muddywatersverona'>
+							Muddy Waters Restaurant
+						</a>
+					</blockquote>
 				</div>
 			</div>
 		</div>

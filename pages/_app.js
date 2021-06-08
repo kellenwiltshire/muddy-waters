@@ -20,6 +20,14 @@ function MyApp({ Component, pageProps }) {
 				integrity='sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns'
 				crossorigin='anonymous'
 			></script>
+			<div id='fb-root'></div>
+			<script
+				async
+				defer
+				crossorigin='anonymous'
+				src='https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v11.0&appId=251204861590122&autoLogAppEvents=1'
+				nonce='B3PlVkZS'
+			></script>
 		</Layout>
 	);
 }

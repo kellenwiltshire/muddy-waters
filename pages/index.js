@@ -18,10 +18,12 @@ export default function Home() {
 			>
 				<Hero />
 			</motion.div>
-			<Titles id={'menu'} title='Menu' />
-			<Menu />
-			<Titles id={'location'} title='Location' />
-			<Location />
+			<div className='container'>
+				<Titles id={'menu'} title='Menu' />
+				<Menu />
+				<Titles id={'location'} title='Location' />
+				<Location />
+			</div>
 		</div>
 	);
 }
